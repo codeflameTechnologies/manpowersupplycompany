@@ -115,10 +115,10 @@ export default function Navbar() {
             <Link to="/" className="flex items-center gap-2.5 flex-shrink-0">
               <div className="w-9 h-9 rounded-xl flex items-center justify-center shadow-lg"
                 style={{ background: "linear-gradient(135deg, #F97316, #EA6800)" }}>
-                <Users className="w-5 h-5 text-white" />
+                
               </div>
               <div className={`leading-none transition-colors duration-300 ${logoTextColor}`}>
-                <span className="font-display font-extrabold text-xl tracking-tight block">PrimeStaff</span>
+                <span className="font-display font-extrabold text-xl tracking-tight block">Demo Logo</span>
                 <span className="text-[10px] font-semibold tracking-[0.2em] uppercase opacity-60">Solutions</span>
               </div>
             </Link>
