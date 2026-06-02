@@ -91,11 +91,11 @@ export default function Navbar() {
               </div>
               <div className="flex items-center gap-5">
                 <a href="mailto:info@primestaff.com" className="text-white/50 hover:text-white text-xs transition-colors hidden sm:block">
-                  info@primestaff.com
+                  info@codeflame.com
                 </a>
-                <a href="tel:+919876543210"
+                <a href="tel:+919149209580"
                   className="flex items-center gap-1.5 text-brand-orange text-xs font-semibold hover:text-white transition-colors">
-                  <Phone className="w-3 h-3" /> +91 98765 43210
+                  <Phone className="w-3 h-3" /> +91 91492 09580
                 </a>
               </div>
             </div>
@@ -190,9 +190,9 @@ export default function Navbar() {
 
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
-              <a href="tel:+919876543210"
+              <a href="tel:+919149209580"
                 className={`flex items-center gap-1.5 text-sm font-medium transition-colors ${textColor} hover:text-brand-orange`}>
-                <Phone className="w-4 h-4" /> +91 98765 43210
+                <Phone className="w-4 h-4" /> +91 9149209580
               </a>
               <Link to="/contact"
                 className="flex items-center gap-2 text-white text-sm font-bold px-5 py-2.5 rounded-xl transition-all hover:-translate-y-0.5 hover:shadow-xl"

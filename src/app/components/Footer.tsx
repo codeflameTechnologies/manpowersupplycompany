@@ -55,7 +55,7 @@ export default function Footer() {
                 <Users className="w-5 h-5 text-white" />
               </div>
               <div>
-                <span className="font-display font-bold text-xl text-white block">PrimeStaff</span>
+                <span className="font-display font-bold text-xl text-white block">Sample Demo</span>
                 <span className="text-xs text-white/50 tracking-widest uppercase">Solutions</span>
               </div>
             </Link>
@@ -128,15 +128,15 @@ export default function Footer() {
                 </span>
               </li>
               <li>
-                <a href="tel:+919876543210" className="flex gap-3 items-center text-white/60 hover:text-brand-orange text-sm transition-colors">
+                <a href="tel:+919149209580" className="flex gap-3 items-center text-white/60 hover:text-brand-orange text-sm transition-colors">
                   <Phone className="w-5 h-5 text-brand-orange flex-shrink-0" />
-                  +91 98765 43210
+                  +91 91492 09580
                 </a>
               </li>
               <li>
-                <a href="mailto:info@primestaff.com" className="flex gap-3 items-center text-white/60 hover:text-brand-orange text-sm transition-colors">
+                <a href="mailto:info@codeflame.com" className="flex gap-3 items-center text-white/60 hover:text-brand-orange text-sm transition-colors">
                   <Mail className="w-5 h-5 text-brand-orange flex-shrink-0" />
-                  info@primestaff.com
+                  info@codeflame.com
                 </a>
               </li>
             </ul>
@@ -154,7 +154,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/40 text-sm">
-            © {new Date().getFullYear()} PrimeStaff Solutions Pvt. Ltd. All rights reserved.
+            © {new Date().getFullYear()} Sample Solutions Pvt. Ltd. All rights reserved.
           </p>
           <div className="flex gap-5">
             {["Privacy Policy", "Terms of Service", "Sitemap"].map((item) => (

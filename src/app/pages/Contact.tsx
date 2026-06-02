@@ -19,27 +19,27 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    primary: "+91 98765 43210",
-    secondary: "+91 87654 32109 (Alt)",
-    href: "tel:+919876543210",
+    primary: "+91 94920 9580",
+    secondary: "+91 91492 09580 (Alt)",
+    href: "tel:+91949209580",
     color: "#0B1E3E",
     note: "Mon–Sat: 9 AM – 7 PM",
   },
   {
     icon: Mail,
     title: "Email Us",
-    primary: "info@primestaff.com",
-    secondary: "hr@primestaff.com",
-    href: "mailto:info@primestaff.com",
+    primary: "info@codeflame.com",
+    secondary: "hr@codeflame.com",
+    href: "mailto:info@codeflame.com",
     color: "#F97316",
     note: "Response within 2 hours",
   },
   {
     icon: MessageCircle,
     title: "WhatsApp",
-    primary: "+91 98765 43210",
+    primary: "+91 94920 9580",
     secondary: "Quick enquiries welcome",
-    href: "https://wa.me/919876543210",
+    href: "https://wa.me/91949209580",
     color: "#25D366",
     note: "Available 24/7",
   },
@@ -55,10 +55,10 @@ const contactInfo = [
 ];
 
 const offices = [
-  { city: "Mumbai (HQ)", address: "123 Business Hub, Andheri East, Mumbai – 400069", phone: "+91 98765 43210" },
-  { city: "Pune", address: "45 Corporate Park, Viman Nagar, Pune – 411014", phone: "+91 87654 32100" },
-  { city: "Delhi NCR", address: "78 Business Tower, Sector 62, Noida – 201301", phone: "+91 76543 21000" },
-  { city: "Bengaluru", address: "12 Tech Hub, Whitefield, Bengaluru – 560066", phone: "+91 65432 10000" },
+  { city: "Mumbai (HQ)", address: "123 Business Hub, Andheri East, Mumbai – 400069", phone: "+91 91492 09580" },
+  { city: "Pune", address: "45 Corporate Park, Viman Nagar, Pune – 411014", phone: "+91 91492 09580" },
+  { city: "Delhi NCR", address: "78 Business Tower, Sector 62, Noida – 201301", phone: "+91 91492 09580" },
+  { city: "Bengaluru", address: "12 Tech Hub, Whitefield, Bengaluru – 560066", phone: "+91 91492 09580" },
 ];
 
 type FormData = {

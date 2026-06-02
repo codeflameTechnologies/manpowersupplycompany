@@ -660,9 +660,9 @@ export default function Home() {
                 style={{ background: "linear-gradient(135deg, #F97316, #EA6800)", boxShadow: "0 12px 40px rgba(249,115,22,0.45)" }}>
                 Request Free Consultation <ArrowRight className="w-5 h-5" />
               </Link>
-              <a href="tel:+919876543210"
+              <a href="tel:+919149209580"
                 className="flex items-center justify-center gap-2.5 bg-white/10 border border-white/20 text-white font-semibold px-9 py-4 rounded-xl hover:bg-white/18 transition-all">
-                <Phone className="w-5 h-5 text-brand-orange" /> +91 98765 43210
+                <Phone className="w-5 h-5 text-brand-orange" /> +91 91492 09580
               </a>
             </div>
             <p className="text-white/30 text-xs mt-7">
@@ -683,8 +683,8 @@ export default function Home() {
             </p>
             <div className="space-y-5">
               {[
-                { icon: Phone, label: "Call Us", value: "+91 98765 43210", sub: "Mon–Sat, 9 AM–7 PM", href: "tel:+919876543210" },
-                { icon: Mail, label: "Email Us", value: "info@primestaff.com", sub: "Response within 2 hours", href: "mailto:info@primestaff.com" },
+                { icon: Phone, label: "Call Us", value: "+91 91492 09580", sub: "Mon–Sat, 9 AM–7 PM", href: "tel:+919149209580" },
+                { icon: Mail, label: "Email Us", value: "info@codeflame.com", sub: "Response within 2 hours", href: "mailto:info@codeflame.com" },
                 { icon: MapPin, label: "Head Office", value: "123 Business Hub, Andheri East", sub: "Mumbai — 400069", href: "#" },
               ].map((c) => (
                 <a key={c.label} href={c.href} className="flex gap-4 items-start group">
